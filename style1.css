@@ -1,0 +1,598 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+@font-face {
+    font-family: Korolev;
+   	src: url(assets/fonts/KorolevHeavy.woff);
+}
+main {
+	height: 100%;	
+}
+header{
+	width: 100%;
+}
+.img_topo{
+	width: 100%;
+}
+.menu{	
+	width: 228px;
+	position: fixed;
+	top: 270px;
+	left: 35px;
+}
+.menu a {
+	background-color: none;
+    color: #006C1C; 
+    display: block;
+    padding: 12px; 
+    text-decoration: none; 
+    font-family: korolevBold;
+}
+.menures{
+	display: none;
+}
+.hamburguer{
+	margin: 2px;
+	height: 5px;
+	width: 30px;
+	cursor: pointer;
+	background: #752A08;
+}
+.img_logo{
+	width: 257px;
+	height: 167px;
+	position: fixed;
+	top: 80px;
+	left: 15px;
+}
+.topo {
+	position: relative;
+	margin: 1px;
+	width: 100%;
+}
+.img_fundo{
+	width: 100%;
+	height: 650px;
+	margin-top: -10px;
+}
+.introdução{
+	width: 553px;
+	height: 404px;
+	font-size: 23px;
+   	font-weight: bold;
+   	position: relative;
+   	top: -350px;
+   	left: 280px;
+}
+.img_1{
+	width: 295px;
+	height: 200px;
+	border-radius: 25px;
+	position: relative;
+	top: -520px;
+	left: 280px;
+}
+.img_2{
+	width: 295px;
+	height: 200px;
+	border-radius: 25px;
+	position: relative;
+	top: -520px;
+	left: 330px;
+}
+.img_3{
+	width: 295px;
+	height: 200px;
+	border-radius: 25px;
+	position: relative;
+	top: -520px;
+	left: 380px;	
+}
+.titulo_atividades{ 
+	font-size: 44px;
+	position: relative;
+	bottom: 420px;
+	left: 280px;
+	font-family: "assets/fonts/KorolevBold.woff"
+}
+.img_alfabetização{
+	width: 100px;
+	height: 92px;
+	position: relative;
+	top: -360px;
+	left: 325px;
+}
+.text_alfabetização{
+	width: 173.54px;
+	height: 43.49px;
+	position: relative;
+	top: -360px;
+	left: 325px;
+}
+.img_reforço{
+	width: 100px;
+	height: 92px;
+	position: relative;
+	top: -505px;
+	left: 585px;
+}
+.text_reforço{
+	width: 198.56px;
+	height: 50px;
+	position: relative;
+	top: -500px;
+	left: 585px;
+}
+.img_ingles{
+	width: 100px;
+	height: 92px;
+	position: relative;
+	top: -640px;
+	left: 830px;
+}
+.text_inglês{
+	width: 198.56px;
+	height: 50px;
+	position: relative;
+	top: -643px;
+	left: 830px;
+}
+.img_palestras{
+	width: 100px;
+	height: 122px;
+	position: relative;
+	top: -820px;
+	left: 1080px;
+}
+.text_palestras{
+	width: 125.92px;
+	height: 43.59px;
+	position: relative;
+	top: -820px;
+	left: 1080px;
+}
+.img_artesanato {
+	width: 120px;
+	height: 112px;
+	position: relative;
+	top: -770px;
+	left: 320px;
+}
+.text_artesanato{
+	width: 145.29px;
+	height: 43.59px;
+	position: relative;
+	top: -785px;
+	left: 328px;
+}
+.img_teatro{
+	width: 100px;
+	height: 92px;
+	position: relative;
+	top: -925px;
+	left: 598px;
+}
+.text_teatro{
+	width: 85.56px;
+	height: 43.59px;
+	position: relative;
+	top: -925px;
+	left: 625px;
+}
+.img_dança{
+	width: 100px;
+	height: 92px;	
+	position: relative;
+	top: -1065px;
+	left: 835px;
+}
+.text_dança{	
+	width: 85.56px;
+	height: 43.59px;
+	position: relative;
+	top: -1065px;
+	left: 865px;
+}
+.img_capoeira{
+	width: 100px;
+	height: 92px;
+	position: relative;
+	top: -1207px;
+	left: 1060px;
+}
+.text_capoeira{
+	width: 85.56px;
+	height: 43.59px;
+	position: relative;
+	top: -1207px;
+	left: 1080px;
+}
+
+.impacto_color{
+	background-color: #006C1C;
+	width: 77.8%;
+	height:315px;
+	position: relative;
+	top: -1100px;
+	left: 286px;
+}
+.titulo2{
+	color: #FFFF00;
+	font-size: 44px;
+	position: relative;
+	top: -1362px;
+	left: 340px;
+	width: 300px;
+}
+.img_impacto{
+	width: 395px;
+	height: 300px;
+	border-radius: 25px;
+	border: 20px solid #FFFFFF;
+	position: relative;	
+	top: -1660px;
+	left: 790px;
+}
+.text_impacto{
+	color: #FFFFFF;
+	font-size: 18px;
+	width: 250px;
+	height: 263px;
+	position: relative;	
+	top: -1320px;
+	left: 345px;
+}
+.titulo3{
+	position: relative;
+	top: -1600px;
+	left: 290px;
+}
+.p_container1{
+	display: flex;
+	justify-content: space-around;
+	width: 750px;
+	position: relative;
+	top: -1520px;
+	left: 300px;
+}
+.p_container2{
+	display: flex;
+	justify-content: space-around;
+	width: 750px;
+	position: relative;
+	top: -1500px;
+	left: 300px;
+}
+.img_sesc{
+	width: 139px;
+	height: 139px;
+}
+.img_negra{
+	width: 93px;
+	height: 93px;
+}
+.img_radio{
+	width: 118px;
+	height: 118px;
+}
+.img_itarare{
+	width: 92px;
+	height: 92px;
+	position: relative;
+	left: 70px;
+}
+.text_itarare{
+	width: 92px;
+	height: 92px;
+	position: relative;
+	top: 105px;
+	left: -70px;
+	font-size: 10px;	
+	font-weight: bold;
+}
+.img_samba{
+	width: 180px;
+	height: 180px;
+}
+.img_hashi{
+	width: 77px;
+	height: 77px;
+	position: relative;
+	left: 60px;
+}
+.text_hashi{
+	position: relative;
+	top: 100px;
+	left: -70px;
+	font-family: "korolevBold"
+}
+.c_conteiner{
+	background-color: #00C733;
+	width: 77.8%;
+	height:515px;
+	position: relative;
+	top:-1420px;
+	left: 286px;
+}
+.img_contato{
+	width: 395px;
+	height: 300px;
+	border-radius: 25px;
+	border: 20px solid #FFFFFF;
+	position: relative;
+	top: 80px;
+	left:500px;
+}
+.titulo4{
+	color:#FFFF00;
+	font-size: 44px;
+	position: relative;
+	top: -270px;
+	left:70px;
+	width: 300px;
+}
+.numero_tel{
+	position: relative;
+	top:-215px;
+	left: 68px;
+	color: #FFFFFF;
+	width: 200px;
+}
+.Endereço{
+	color: #FFFFFF;
+	position: relative;
+	top: -85px;
+	left: 68px;
+	width: 300px;
+}
+.end_email{
+	color: #FFFFFF;
+	position: relative;
+	top: -220px;
+	left: 68px;
+	width: 300px;
+}
+.logo_vnw{
+	width: 100px;
+	height: 100px;
+}
+footer{
+	position: absolute;
+	top: 3000px;
+	left: 550px;
+	width: 200px;
+	height: 50px;
+} 
+.logo_vnw{
+	position: relative;
+	left: 110px;
+	top: -30px;
+	width: 90px;
+	height: 60px;
+}
+@media screen and (max-width: 768px) {
+    .menu {
+  	width: 100%;
+  	height: 150px;
+  	flex-direction: column;
+	}
+	.menures{
+		display: block;
+		position: relative;
+   		top: -220px;
+	}
+	.menu a {
+		display: inline;
+		position: relative;
+		top: -230px;
+	}
+	.hamburguer{
+		margin: 1px;
+		height: 3px;
+		position: relative;
+		bottom: 30px;
+		right: 10px;
+		cursor: pointer;
+		z-index: 1;
+	}
+    .body {
+    	width: 100%;
+    	height: 2500px;
+	}
+	header{
+		width: 100%;
+		height: 1500px;
+	}
+	.img_topo{
+		width: 85%;
+		height: 10px;
+		z-index:3;
+		position: fixed;
+		left:50px;
+	}
+	.cabeça{
+		width: 730px;
+	}
+	.img_fundo {
+		transform: rotate(90deg);
+		filter: blur(5px);
+		height: 320px;
+		width: 630px;
+		position: fixed;
+		left:-160px;
+		top:150px;
+	}
+	.img_logo {
+		width: 140px;
+		height: 110px;
+		position:fixed;
+		left: 96px;
+		top: 20px;
+    	z-index:1;
+	}
+	.introdução{
+		width: 280px;
+		font-size: 18px;
+		font-family: 'assets/fonts/KorolevBold.woff';
+		position: fixed;
+		left: 25px;
+		top: 230px;
+	}
+	.img_1{
+		width: 287px;
+		height: 210px;
+		position: fixed;
+		left: 12px;
+		top: 495px;
+	}
+	.img_2 {
+		width: 287px;
+		height: 210px;
+		position: fixed;
+		left: 12px;
+		top: 720px;
+	}
+	.img_3{
+		width: 287px;
+		height: 210px;
+		position: fixed;
+		left: 12px;
+		top: 945px;
+	}
+	.titulo_atividades{
+		position: fixed;
+		top: 1190px;
+		left: 30px;
+		font-size: 27px;
+		width: 70px;
+		height: 30px;
+		font-family: 'assets/fonts/KorolevBold.woff'
+	}
+	.img_alfabetização{
+		position: fixed;
+		top:1250px;
+		left: 32px;
+	}
+	.text_alfabetização{
+		position: fixed;
+		top:1340px;
+		left: 32px;
+	}
+	.img_reforço{
+		position: fixed;
+		top:1258px;
+		left: 180px;
+	}
+	.text_reforço{
+		position: fixed;
+		top: 1340px;
+		left: 180px;
+	}
+	.img_ingles{
+		position: fixed;
+		top: 1390px;
+		left: 32px;
+	}
+	.text_inglês{
+		position: fixed;
+		top: 1470px;
+		left: 32px;	
+	}
+	.img_palestras{
+	    position: fixed;
+		top:1370px;
+		left: 200px;	
+	}
+	.text_palestras{
+		position: fixed;
+		top:1470px;
+		left: 200px;
+	}
+	.img_artesanato{
+		position: fixed;
+		top:1510px;
+		left: 25px;
+	}
+	.text_artesanato{
+		position: fixed;
+		top:1595px;
+		left: 30px;
+	}
+	.img_teatro{
+		position: fixed;
+		top:1520px;
+		left: 180px;
+	}
+	.text_teatro{
+		position: fixed;
+		top:1600px;
+		left: 200px;
+	}
+	.img_dança{
+		position: fixed;
+		top:1660px;
+		left: 25px;
+	}
+	.text_dança{
+		position: fixed;
+		top:1750px;
+		left: 55px;
+	}
+	.img_capoeira{
+		position: fixed;
+		top:1650px;
+		left: 180px;
+	}
+	.text_capoeira{
+		position: fixed;
+		top:10px;
+		left: 10px;
+	}
+	.impacto_container{
+		position: fixed;
+		top:2000px;
+	}
+	.titulo2{
+	
+	}
+	.text_impacto{
+	
+	}
+	.img_impacto{
+		
+	}
+	.titulo3{
+		
+	}
+	.parceiros_container1{
+		position: fixed;
+		top:2000px;
+	}
+	.parceiros_container2{
+		position: fixed;
+		top:2000px;
+	}
+	.contato_conteiner{
+	position: fixed;
+		top:2000px;
+	}
+	.img_contato{
+		
+	}
+	.titulo4 {
+		
+	}
+	.numero_tel{
+		
+	}
+	.Endereço {
+		
+	}
+	.end_email {
+		
+	}
+	footer{
+	
+	}
+}
